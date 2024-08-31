@@ -8,7 +8,7 @@ class SecondPage extends StatelessWidget{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("2nd Page"),
+        title: Text("Report Page"),
         backgroundColor: Colors.deepPurple[300],
       ),
     );

@@ -1,5 +1,5 @@
-import 'package:empower/pages/first_page.dart';
-import 'package:empower/pages/second_page.dart';
+import 'package:empower/pages/home_page.dart';
+import 'package:empower/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
+      home: HomePage(),
       routes: {
         '/secondpage': (context) => SecondPage(),
-        '/firstpage': (context) => FirstPage(),
+        '/home_page': (context) => HomePage(),
       },
     );
   }
